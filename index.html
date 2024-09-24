@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5.3 Mega Menu - By Felix Huari</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg shadow-sm bg-light">
+        <div class="container-xxl">
+            <div class="navbar-brand header-logo ">
+                <div class="">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-secondary text-decoration-none" href="/"
+                        aria-label="Bootstrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2"
+                            viewBox="0 0 118 94" role="img">
+                            <title>Bootstrap</title>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+                                fill="currentColor"></path>
+                        </svg>
+                        <span class="fs-5">Bootstrap</span>
+                    </a>
+                </div>
+            </div>
+            <button class="navbar-toggler collapsed rounded-1 text-dark shadow-0" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbar-content">
+                <div class="hamburger-toggle">
+                    <div class="hamburger fs-5">
+                        <i class="bi bi-list"></i>
+                    </div>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbar-content">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>            
+                
+                    <!-- MEGA MENU -->
+                    <li class="nav-item dropdown dropdown-mega position-static">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            data-bs-auto-close="outside">Categorias</a>
+                        <div class="dropdown-menu m-auto shadow border-0 border-top border-primary rounded-1 border-3 end-0"
+                            style="max-width: 1300px;">
+                            <div class="mega-content px-2">
+                                <div class="container-fluid ">
+                                    <div class="row gy-3">
+                                        <div class="col-12 col-sm-4 col-md-3">
+                                            <h5
+                                                class="fs-6 fw-bold mb-3 py-2 border-bottom border-primary border-dashed ">
+                                                Electronica</h5>
+                                            <div class="position-relative">
+                                                <a class="text-decoration-none text-muted d-block py-1" href="#"> <i
+                                                        class="bi bi-arrow-right"></i>Teléfonos</a>
+                                                <a class="text-decoration-none text-muted d-block py-1" href="#"> <i
+                                                        class="bi bi-arrow-right"></i> Computadoras</a>
+                                                <a class="text-decoration-none text-muted d-block py-1" href="#"> <i
+                                                        class="bi bi-arrow-right"></i>Tabletas</a>
+                                                <a class="text-decoration-none text-muted d-block py-1" href="#"> <i
+                                                        class="bi bi-arrow-right"></i> Accesorios</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-4 col-md-3">
+                                            <h5
+                                                class="fs-6 fw-bold mb-3 py-2 border-bottom border-primary border-dashed ">
+                                                Hogar</h5>
+                                            <div class="position-relative">
+                                                <a class="text-decoration-none text-muted d-block py-1" href="#"> <i
+                                                        class="bi bi-arrow-right"></i> Muebles</a>
+                                                <a class="text-decoration-none text-muted d-block py-1" href="#"> <i
+                                                        class="bi bi-arrow-right"></i> Decoración</a>
+                                                <a class="text-decoration-none text-muted d-block py-1" href="#"> <i
+                                                        class="bi bi-arrow-right"></i> Electrodomésticos</a>
+                                                <a class="text-decoration-none text-muted d-block py-1" href="#"> <i
+                                                        class="bi bi-arrow-right"></i> Cocina</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-4 col-md-3">
+                                            <h5
+                                                class="fs-6 fw-bold mb-3 py-2 border-bottom border-primary border-dashed ">
+                                                Deportes</h5>
+                                            <div class="position-relative">
+                                                <a class="text-decoration-none text-muted d-block py-1" href="#"> <i
+                                                        class="bi bi-arrow-right"></i> Futbol</a>
+                                                <a class="text-decoration-none text-muted d-block py-1" href="#"> <i
+                                                        class="bi bi-arrow-right"></i> Ciclismo</a>
+                                                <a class="text-decoration-none text-muted d-block py-1" href="#"> <i
+                                                        class="bi bi-arrow-right"></i> Correr</a>
+                                                <a class="text-decoration-none text-muted d-block py-1" href="#"> <i
+                                                        class="bi bi-arrow-right"></i> Gimnasio</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-4 col-md-3 ">
+                                            <h5
+                                                class="fs-6 fw-bold mb-3 py-2 border-bottom border-primary border-dashed ">
+                                                Deal of the day</h5>
+                                            <div class="card p-0 border-0">
+                                                <div class="card-body px-0 pt-0">
+                                                    <div id="carouselExampleCaptions" class="carousel slide">
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <span
+                                                                    class="position-absolute top-0 start-0 badge bg-danger  mt-2 ms-2 rounded-0">
+                                                                    off 10%
+                                                                </span>
+                                                                <img src="https://via.placeholder.com/320x180"
+                                                                    class="d-block w-100" alt="...">
+                                                                <div class="carousel-caption d-none d-md-block">
+                                                                    <h5>product first 1</h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="https://via.placeholder.com/320x180"
+                                                                    class="d-block w-100" alt="...">
+                                                                <div class="carousel-caption d-none d-md-block">
+                                                                    <h5>product first 2</h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="https://via.placeholder.com/320x180"
+                                                                    class="d-block w-100" alt="...">
+                                                                <div class="carousel-caption d-none d-md-block">
+                                                                    <h5>product first 2</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <button class="carousel-control-prev" type="button"
+                                                            data-bs-target="#carouselExampleCaptions"
+                                                            data-bs-slide="prev">
+                                                            <span class="carousel-control-prev-icon"
+                                                                aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Previous</span>
+                                                        </button>
+                                                        <button class="carousel-control-next" type="button"
+                                                            data-bs-target="#carouselExampleCaptions"
+                                                            data-bs-slide="next">
+                                                            <span class="carousel-control-next-icon"
+                                                                aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Next</span>
+                                                        </button>
+                                                    </div>
+                                                    <p class="card-text mt-1">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Voluptates, nihil.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"
+                            data-bs-auto-close="outside"> Ropas</a>
+                        <ul class="dropdown-menu shadow border-0 border-top border-primary rounded-1 border-3 ">
+                            <li><a class="dropdown-item" href="#">Niños </a></li>
+                            <li><a class="dropdown-item" href="#">Accesorios</a></li>                     
+                            <li class="dropstart">
+                                <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Hombres</a>
+                                <ul class="dropdown-menu shadow border-0 border-top border-primary rounded-1 border-3">
+                                    <li><a class="dropdown-item" href=""> Zapatillas Urbanas</a></li>
+                                    <li><a class="dropdown-item" href=""> Pantalones </a></li>
+                                    <li><a class="dropdown-item" href=""> Polos</a></li>
+                                    <li><a class="dropdown-item" href=""> Camisas</a></li>
+                                    <li><a class="dropdown-item position-relative" href=""> Ofertas <span class="badge bg-danger position-absolute end-0 ">off 10%</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropend">
+                                <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">Mujeres</a>
+                                <ul class="dropdown-menu shadow border-0 border-top border-primary rounded-1 border-3">
+                                    <li><a class="dropdown-item" href=""> Zapatillas Urbanas</a></li>
+                                    <li><a class="dropdown-item" href=""> Pantalones </a></li>
+                                    <li><a class="dropdown-item" href=""> Polos</a></li>
+                                    <li><a class="dropdown-item" href=""> Camisas</a></li>
+                                    <li><a class="dropdown-item position-relative" href=""> Ofertas <span class="badge bg-danger position-absolute end-0 ">off 10%</span></a></li>
+                                    <li class="dropend">
+                                        <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                            data-bs-auto-close="outside">Maquillajes</a>
+                                        <ul
+                                            class="dropdown-menu dropdown-submenu shadow border-0 border-top border-primary rounded-1 border-3">
+                                            <li><a class="dropdown-item" href=""> Maquillajes Natural 1</a></li>
+                                            <li><a class="dropdown-item" href=""> Maquillajes Natural 2</a></li>
+                                            <li><a class="dropdown-item" href=""> Maquillajes Natural 3 </a></li>
+                                            <li><a class="dropdown-item" href=""> Maquillajes Natural 4  </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="">Mochilas</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Mejores Ofertas <span class="badge bg-danger position-relative ms-1 end-0 ">off 10%</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"     data-bs-auto-close="outside">Sobre Nosotos</a>
+                        <ul class="dropdown-menu shadow border-0 border-top border-primary rounded-1 border-3 ">
+                           <li class="py-1"><a href="" class="dropdown-item">Teminos y Condiciones</a></li>
+                           <li class="py-1"><a href="" class="dropdown-item">Políticas de devolución</a></li>
+                           <li class="py-1"><a href="" class="dropdown-item">Site Map</a></li>
+                 
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " aria-current="page" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      
+    <script src="assets/js/app.js"></script>
+</body>
